@@ -1,4 +1,4 @@
-load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_library", "hdr_list", "includes_list")
+load("@com_github_amitarya_rules_boost//:boost/boost.bzl", "boost_library", "hdr_list", "includes_list")
 
 config_setting(
     name = "linux",
